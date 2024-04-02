@@ -1,0 +1,18 @@
+#spring.application.name=TeaCraftsmanship
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.41.6.43:3306/hui_tea_ingenuity
+    username: root
+    password: 18395303098
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+#   tuofengmingming
+#logging:
+#  level:
+#    root: DEBUG
+server:
+  port: 8081
