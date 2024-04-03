@@ -9,10 +9,10 @@
         <relativePath>../TeaCraftsmanship-parent/pom.xml</relativePath>
     </parent>
 
-    <artifactId>TeaCraftsmanship-wk</artifactId>
+    <artifactId>TeaCraftsmanship</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>TeaCraftsmanship-wk</name>
-    <description>TeaCraftsmanship-wk</description>
+    <name>TeaCraftsmanship</name>
+    <description>TeaCraftsmanship</description>
     <properties>
         <java.version>17</java.version>
     </properties>
