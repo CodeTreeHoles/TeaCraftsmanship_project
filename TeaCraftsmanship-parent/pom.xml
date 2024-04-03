@@ -21,6 +21,7 @@
     <modules>
         <module>../TeaCraftsmanship</module>
         <module>../TeaCraftsmanship-pojo</module>
+        <module>../TeaCraftsmanship-wk</module>
     </modules>
 
     <!--所有工程共有的依赖-->

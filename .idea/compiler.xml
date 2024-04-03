@@ -8,14 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TeaCraftsmanship-pojo" />
-        <module name="TeaCraftsmanship" />
+        <module name="TeaCraftsmanship-wk (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TeaCraftsmanship" target="17" />
+      <module name="TeaCraftsmanship (1)" target="17" />
+      <module name="TeaCraftsmanship-wk" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="TeaCraftsmanship" options="-parameters" />
+      <module name="TeaCraftsmanship (1)" options="-parameters" />
       <module name="TeaCraftsmanship-pojo" options="-parameters" />
+      <module name="TeaCraftsmanship-wk" options="-parameters" />
+      <module name="TeaCraftsmanship-wk (1)" options="-parameters" />
+      <module name="TeaCraftsmanship-wk (2)" options="-parameters" />
     </option>
   </component>
 </project>

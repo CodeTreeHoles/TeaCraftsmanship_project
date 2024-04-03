@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/teas")
+@RequestMapping("/tea/home")
 public class TeaController {
 
     @Autowired
@@ -28,7 +28,7 @@ public class TeaController {
         return Result.success(tea);
     }
 
-    @GetMapping()
+    @GetMapping("list")
 //    public String test(){
 //        return "test";
 //    }
